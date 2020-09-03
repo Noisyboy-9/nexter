@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../src/scss/main.scss",
+        "../src/scss/abstracts/_variables.scss",
+        "../src/scss/abstracts/_mixins.scss",
+        "../src/scss/base/_typography.scss",
+        "../src/scss/components/_features.scss",
+        "../src/scss/components/_gallery.scss",
+        "../src/scss/components/_realtors.scss",
+        "../src/scss/components/_story.scss",
+        "../src/scss/page/_home.scss",
+        "../src/scss/layouts/_footer.scss",
+        "../src/scss/layouts/_header.scss",
+        "../src/scss/layouts/_sidebar.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
