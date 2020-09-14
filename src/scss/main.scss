@@ -3,13 +3,13 @@
 
 @import 'base/typography';
 
-@import 'components/features';
-@import 'components/gallery';
-@import 'components/realtors';
-@import 'components/story';
-
-@import 'page/home';
+@import './page/homePage';
 
 @import 'layouts/footer';
 @import 'layouts/header';
 @import 'layouts/sidebar';
+@import 'layouts/features';
+@import 'layouts/homes';
+@import 'layouts/gallery';
+@import 'layouts/realtors';
+@import 'layouts/story';

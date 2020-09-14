@@ -1,7 +1,7 @@
 .vscode
 .vscode/*   
 node_modules
-public/*
+public
 # JPEG
 *.jpg
 *.jpeg
