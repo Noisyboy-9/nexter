@@ -1,5 +1,10 @@
 .features { 
-    background-color: orangered;
-    grid-column: 3 / 11;
-
+    &__container { 
+        grid-column: 3 / 11;
+        margin: 15rem 0;
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6rem;
+    }
 }
