@@ -1,9 +1,11 @@
 .story {
-    &__right { 
-        background-color: rebeccapurple;
-    }
-
     &__left { 
         background-color: royalblue;
+        grid-column: 2 / 7;
+    }
+
+    &__right { 
+        background-color: rebeccapurple;
+        grid-column: 7 / -1;
     }
 }
