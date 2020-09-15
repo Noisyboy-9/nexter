@@ -1,6 +1,15 @@
 .story {
     &__left { 
+        background: linear-gradient(rgba($color-primary, 0.6), rgba($color-primary, 0.6)) ,
+        url(/public/img/back.jpg);
+        background-position: center;
         grid-column: 2 / 7;
+
+
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(6, 1fr);
+        justify-items: center;
     }
 
     &__right { 
@@ -13,5 +22,23 @@
 
     &__paragraph { 
         font-size: 1.5rem;
+    }
+
+    &__image { 
+        
+
+        &--1 {
+            width: 100%;
+            grid-column: 2 / 6;
+            grid-row: 2 / 6;
+            box-shadow: 0 2rem 5rem rgba(#000000, 0.1);
+        }
+        
+        &--2 { 
+            width: 125%;
+           grid-row: 4 / 6;
+           grid-column: 4 / 7;
+           box-shadow: 0 2rem 5rem rgba(#000000, 0.2);
+        }
     }
 }
