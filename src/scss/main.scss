@@ -1,6 +1,8 @@
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
+@import 'abstracts/extends';
 
+@import 'base/base';
 @import 'base/typography';
 
 @import './page/homePage';
