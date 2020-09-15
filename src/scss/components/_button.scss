@@ -1,0 +1,23 @@
+.button {
+    &,
+    &:link,
+    &:visited { 
+        text-decoration: none;
+        outline: none;
+        border: none;
+    }
+
+    &__orange { 
+        font: $font-display;
+        font-size: 1.5rem;
+        padding: 1.8rem 3rem;
+        text-transform: uppercase;
+        background-color: $color-primary;
+        color: white;
+        cursor: pointer;
+        transition: all 0.2s;
+        &:hover { 
+            background-color: $color-primary-dark;
+        }
+    }
+}

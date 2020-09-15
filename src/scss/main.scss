@@ -1,11 +1,13 @@
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
 @import 'abstracts/extends';
+@import 'abstracts/utilities';
 
 @import 'base/base';
 @import 'base/typography';
 
-@import './page/homePage';
+@import 'components/button';
+
 
 @import 'layouts/footer';
 @import 'layouts/header';
@@ -15,3 +17,6 @@
 @import 'layouts/gallery';
 @import 'layouts/realtors';
 @import 'layouts/story';
+
+@import './page/homePage';
+

@@ -1,11 +1,17 @@
 .story {
     &__left { 
-        background-color: royalblue;
         grid-column: 2 / 7;
     }
 
     &__right { 
-        background-color: rebeccapurple;
         grid-column: 7 / -1;
+        padding: 6rem 8vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__paragraph { 
+        font-size: 1.5rem;
     }
 }
