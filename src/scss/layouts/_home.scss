@@ -1,0 +1,78 @@
+.home {
+
+    &__container {
+        grid-column: 3 / 11;
+        margin: 15rem 0;
+        display: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+        gap: 7rem;
+    }
+
+    &__card {
+        background-color: $color-grey-light-1;
+        position: relative;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__img {
+        width: 100%;
+        grid-column: 1 / -1;
+    }
+
+    &__like-icon {
+        fill: $color-primary;
+        transition: all 0.2s;
+        width: 2.5rem;
+        height: 2.5rem;
+        cursor: pointer;
+
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    &__name {
+        grid-column: 1 / -1;
+        width: 80%;
+        background-color: $color-secondary;
+        color: white;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 1.6rem;
+        font-family: $font-display;
+        font-weight: 400;
+        padding: 1.25rem;
+        margin: 0 auto;
+        transform: translateY(-50%);
+    }
+
+    &__details {
+
+        &--location,
+        &--rooms {
+            margin-top: 4rem;
+        }
+
+        margin-top: 3rem;
+        display: flex;
+        align-items: center;
+        margin-left: 4rem;
+        font-size: 1.5rem;
+
+        svg {
+            fill: $color-primary;
+            width: 2rem;
+            height: 2rem;
+            margin-right: 1rem;
+        }
+    }
+
+    &__button {
+        grid-column: 1 / -1;
+        margin-top: 6rem;
+        text-align: center;
+    }
+}
