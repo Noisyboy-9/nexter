@@ -1,4 +1,33 @@
-.header { 
-    background-color: orange;
-    grid-column: 2/ 9;
+.header {
+    grid-column: 2 / 9;
+    background-image: linear-gradient(rgba($color-secondary, 0.9), rgba($color-secondary, 0.9)), url(/public/img/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem;
+    padding-top: 4rem;
+    padding-left: 12rem;
+
+    display: grid;
+    grid-template-rows: 1fr min-content 6rem 1fr;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1.5rem;
+    justify-content: center;
+
+    &__logo {
+        height: 3rem;
+        justify-self: center;
+    }
+
+    &__button {
+        justify-self: start;
+        align-self: start;
+    }
+
+    &__recommended-text {}
+
+    &__recommended-logos {
+        img {
+            height: 2.5rem;
+        }
+    }
 }
