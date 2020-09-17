@@ -1,4 +1,35 @@
-.sidebar { 
-    background-color: green;
+.sidebar {
+    background-color: $color-primary;
     grid-row: 1/ -1;
+    display: flex;
+    justify-content: center;
+
+    &__hamburger-icon {
+        background-color: white;
+        width: 4.5rem;
+        height: 2px;
+        display: block;
+        margin-top: 4rem;
+        cursor: pointer;
+
+        &::after,
+        &::before {
+            content: "";
+            width: 4.5rem;
+            height: 2px;
+            background-color: white;
+            display: block
+        }
+
+        &::before {
+            transform: translateY(-1.2rem);
+        }
+
+        &::after {
+            transform: translateY(1.2rem);
+        }
+
+    }
+
+
 }
