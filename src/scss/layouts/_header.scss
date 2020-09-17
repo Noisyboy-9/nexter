@@ -26,6 +26,21 @@
         justify-content: center;
     }
 
+    @media only screen and (max-width: 43.75em) {
+        grid-column: 1 / -1;
+    }
+
+    @media only screen and (max-width:37.5em) {
+        h3 {
+            justify-self: center;
+        }
+
+        h1 {
+            justify-self: center;
+
+        }
+    }
+
     &__logo {
         height: 3rem;
         justify-self: center;
@@ -34,6 +49,10 @@
     &__button {
         justify-self: start;
         align-self: start;
+
+        @media only screen and (max-width:37.5em) {
+            justify-self: center;
+        }
     }
 
     &__recommended-text {
@@ -60,6 +79,11 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 3rem;
         justify-items: center;
+
+        @media screen and (max-width:21.875em) {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(2, 1fr);
+        }
 
         img {
             height: 2.5rem;
