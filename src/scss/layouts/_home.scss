@@ -1,7 +1,7 @@
 .home {
 
     &__container {
-        grid-column: 3 / 11;
+        grid-column: center-start /center-end;
         margin: 15rem 0;
         display: none;
         display: grid;

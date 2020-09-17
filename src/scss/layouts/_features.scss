@@ -1,10 +1,11 @@
-.features { 
+.features {
     display: grid;
     grid-template-columns: min-content 1fr;
     gap: 1.5rem 2.5rem;
 
-    &__container { 
-        grid-column: 3 / 11;
+    &__container {
+        grid-column: center-start / center-end;
+
         margin: 15rem 0;
         display: grid;
         grid-template-rows: auto auto;
@@ -13,7 +14,7 @@
         align-items: start;
     }
 
-    &__icon { 
+    &__icon {
         width: 4.5rem;
         height: 4.5rem;
         fill: $color-primary;

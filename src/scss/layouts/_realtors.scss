@@ -1,5 +1,5 @@
 .realtors {
-    grid-column: 9 / -1;
+    grid-column: col-end 6 / full-end;
     background-color: $color-secondary;
     display: flex;
     flex-direction: column;
