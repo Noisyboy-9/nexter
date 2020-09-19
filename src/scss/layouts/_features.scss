@@ -12,6 +12,10 @@
         grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
         gap: 6rem;
         align-items: start;
+
+        @media screen and (max-width : 43.75em) {
+            margin: 10rem 0;
+        }
     }
 
     &__icon {
@@ -19,6 +23,13 @@
         height: 4.5rem;
         fill: $color-primary;
         margin-top: -1rem;
+    }
+
+    &__heading {
+
+        @media screen and (max-width : 43.75em) {
+            font-size: 2rem;
+        }
     }
 
     &__paragraph {
