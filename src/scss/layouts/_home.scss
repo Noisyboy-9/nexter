@@ -7,6 +7,10 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
         gap: 7rem;
+
+        @media only screen and (max-width: 62.5em) {
+            margin: 10rem 0;
+        }
     }
 
     &__card {
